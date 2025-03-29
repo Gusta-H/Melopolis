@@ -1,0 +1,342 @@
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('../font_poppins/Poppins-Bold.ttf');
+
+    font-family: 'Poppins-semibold';
+    src: url('../font_poppins/Poppins-SemiBold.ttf');
+
+    font-family: 'Poppins-regular';
+    src: url('../font_poppins/Poppins-Regular.ttf');
+
+    font-family: 'Poppins-medium';
+    src: url('../font_poppins/Poppins-Medium.ttf');
+
+    font-family: 'Poppins-light';
+    src: url('../font_poppins/Poppins-Light.ttf');
+}
+
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F9F4E8;
+    border-radius: 13px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #DF9500;
+    border-radius: 10px;
+    border: 3px solid #f0f0f0;
+}
+  
+body {
+    background-color: #F9F4E8;
+}
+
+main {
+    width: 90%;
+    background-color: #F9F4E8;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: #000;
+    font-family: 'Poppins-bold';
+}
+
+/*#menu {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Poppins-medium';
+}
+
+#menu img{
+    position: relative;
+    width: 120px;
+    height: auto;
+}
+
+#menu a{
+    position: relative;
+    text-decoration: none;
+    color: #422C00;
+}
+
+#menu a:hover{
+    position: relative;
+    background-color: #fff;
+    width: 150px;
+    height: 25px;
+    color: #FEC201;
+    transition: 1s all;
+    border-radius: 20px;
+}*/
+
+#barrinha{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 25px;
+    background-color: #F9F4E8;
+    
+}
+
+#logo{
+    position: absolute;
+    background-image: url(../img_video/logo2.png);
+    width: 14.2%;
+    height:100px;
+    margin-right: 1100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+   
+}
+#barrinha a{
+    position: relative;
+    width: 14.2%;
+    text-align: center;
+    color: #5C3D00;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#barrinha section{
+    position: relative;
+    width: 14.2%;
+    text-align: center;
+}
+
+
+#barrinha a:hover{
+    background-color: #5C3D00;
+    color: #F9F4E8;
+    transition: 1s all;
+    font-family: 'Poppins-semibold';
+}
+
+
+#section1 img{
+   position: relative;
+   margin: auto;
+   align-items: center;
+   margin-top: 50px;
+   width: 70%;
+   margin-left: 225px;
+}
+
+#fazendo_hotel {
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+video {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    position: relative;
+    font-size: 45px;
+    color: #5C3D00;
+    font-family: 'Poppins-bold';
+}
+
+#texto {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    font-family: 'Poppins-medium';
+}
+
+ p {
+    position: relative;
+    font-size: 25px;
+    color: #5C3D00;
+    display: flex;
+    text-align: center;
+    font-family: 'Poppins-medium';
+}
+
+video {
+    position: relative;
+    margin: auto;
+    width: 800px;
+    margin-top: 30px;
+}
+
+h2 {
+    position: relative;
+    color: #5C3D00;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    font-family: 'Poppins-bold';
+}
+
+#dicas {
+    position: relative;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    text-align: left;
+    font-family: 'Poppins-bold';
+    margin-top: 10px;
+}
+
+.container-topicos {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.topicos {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    background-color: #FEC201;
+
+}
+
+#textinho {
+    position: relative;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Poppins-semibold';
+}
+
+footer {
+    background-color: #F1CB39;
+    margin-top: 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-logo img{
+    width: 130px;
+}
+
+.footer-link {
+    display: flex;
+    gap: 150px;
+    text-align: left;
+}
+
+.itens-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.itens-footer h3 {
+    margin-bottom: 10px;
+}
+
+.itens-footer a {
+    text-decoration: none;
+    margin: 5px;
+    color: #000;
+    font-family: 'Poppins-regular';
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-social a {
+    margin: 5px;
+}
+
+.direitos p{
+    background-color: #4d3300;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    font-family: 'Poppins-bold';
+}
+
+.abelha { 
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    background: url('../img_video/Group27.png') no-repeat center;
+    background-size: contain;
+    animation: flying 5s linear infinite;
+}
+
+/* Posicionamento aleatório das abelhas */
+.abelha:nth-child(1) { top: 15%; left: 15%; animation-delay: 0s; }
+.abelha:nth-child(2) { top: 40%; left: 5%; animation-delay: 1s; }
+.abelha:nth-child(3) { top: 50%; left: 73%; animation-delay: 2s; }
+.abelha:nth-child(4) { top: 70%; left: 10%; animation-delay: 3s; }
+.abelha:nth-child(5) { top: 90%; left: 80%; animation-delay: 4s; }
+.abelha:nth-child(6) { top: 25%; left: 75%; animation-delay: 5s; }
+.abelha:nth-child(7) { top: 105%; left: 15%; animation-delay: 6s; }
+
+@keyframes flying {
+    0% {
+      transform: translateX(0px) rotate(0deg);
+    }
+    25% {
+      transform: translateX(50px) rotate(15deg);
+    }
+    50% {
+      transform: translateX(100px) rotate(0deg);
+    }
+    75% {
+      transform: translateX(50px) rotate(-15deg);
+    }
+    100% {
+      transform: translateX(0px) rotate(0deg);
+    }
+}

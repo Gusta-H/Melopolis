@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo principal do site</title>
+
+    <!-- link css e js -->
+    <link rel="stylesheet" href="melopolis-informativo/css/informativo.css" type="text/css">
+    <script type="text/javascript" src="melopolis-informativo/js/informativo.js" defer></script> 
+
+    <!-- Link fonts google -->
+     <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');</style>
+
+</head>
+<body>
+    
+    <!--------------------------main container fundo-------------------------->
+    <main id="fundo">
+        
+        <!--------------------------cabeçalho-------------------------->
+        <nav id= "barrinha">
+            
+            <div id="logo"></div>
+            <section></section>
+            
+            <a href="home.html"> Início</a>
+            <a href="sobre_nos.html"> Sobre nós </a>
+            <a href="parceiros.html"> Parceiros </a>
+            <a href="informativo.html"> Informativos </a>
+            <a href="hotel.html"> Hotel de abelhas </a>
+            <a href="pagina-alimentos.html"> Loja </a>
+        </nav>
+        
+        <!--------------------------todo o conteúdo da página-------------------------->
+        <section id="conteudo">
+
+            <div id="titulo_principal">
+                <h1>POR QUE AS ABELHAS PRECISAM DE AJUDA?</h1>
+            </div>
+            <!------------------------Favo de mel com frase de efeito------------------------>
+            <div id="favo_informativo"> 
+                <img id="beebizinha" src="melopolis-informativo/img/beebizinha.png">
+                <img id="favo_fundo" src="melopolis-informativo/img/favo-fundo.png">
+                    <p>“Se as abelhas desaparecerem da face da Terra, a humanidade terá apenas mais 
+                        quatro anos de existência. Sem abelhas não há polinização, não há reprodução 
+                        da flora, sem flora não haverá animais e nem a raça humana”           (ALBERT EINSTEIN, 1879-1955).
+                    </p>
+            </div>
+
+            <!------------------------cards interativos------------------------ -->
+                <div id="bloco-informativo-direita"> 
+                    <h1 class="titulo_bloco">Elas precisam de nós!</h1>
+                    <p class="texto_bloco">
+                        Há algum tempo, estudos mostram o declínio na população de polinizadores, os principais motivos são a perda de habitat natural com o crescimento das cidades.
+
+                    </p>
+                </div>
+    
+                <img class="abelha" id="abelhinha1" src="melopolis-informativo/img/abelhinha1.png">
+    
+                <div id="bloco-informativo-esquerda"> 
+                    <h1 class="titulo_bloco">Elas são importantes</h1>
+                    <p class="texto_bloco">
+                        As abelhas são responsáveis pela polinização de aproximadamente 73% das plantas no mundo todo!
+                    </p>
+                </div> 
+    
+                <img class="abelha" id="abelhinha2" src="melopolis-informativo/img/abelhinha2.png">
+    
+                <!--------------------------texto informativo com imagem de abelha ao lado-------------------------->
+                <div id="sessao_informativa1">
+                    <div class="blur-background"></div>
+                    
+                    <img id="abeia_canto" src="melopolis-informativo/img/abelha-canto.png" alt="Abelha no canto">
+
+                    <div id="texto_sessao_informacao">
+                        <h1>Você sabia que...</h1>
+                        <p>Normalmente as espécies de abelhas são africanas, porém,  
+                            o Brasil conta com mais de 1,5 mil espécies descritas. 
+                            E são as abelhas nativas sem ferrão as principais 
+                            polinizadoras das matas brasileiras, contribuindo com 
+                            a reprodução de 30% a 80% das espécies de plantas, 
+                            dependendo do tipo de bioma.</p>
+                    </div>
+                </div>
+
+                <!--------------------------abelhas em movimento-------------------------->
+            <img class="abelha" id="abelhinha3" src="melopolis-informativo/img/abelhinha2.png">
+            <img class="abelha" id="abelhinha4" src="melopolis-informativo/img/abelhinha1.png">
+
+            <!------------------------cards favo de mel--------------------------->
+            <div id="dois-favos">
+                <img src="melopolis-informativo/img/dois-favos.png">
+                <p id="texto-favos1">Contudo, a poluição e a perda de habitat continuam sendo grandes ameaças. A preservação de áreas verdes é essencial para sua sobrevivência.</p>
+                <p id="texto-favos2">Estudos mostram que as abelhas estão se adaptando a áreas urbanas, encontrando abrigo em espaços com vegetação.</p>
+            </div>
+
+            <!------------------------segundo texto informativo com imagem de pote de mel ao lado------------------------>
+            <div id="sessao_informativa3">
+                <div id="texto_sessao_informacao3">
+                    <h1>Diante desse cenário...</h1>
+                    <p>surgiu Melópolis, para espalhar, conscientizar e agilizar as informações essenciais sobre as abelhas, deixando evidente sua importância na Terra, e o porque é necessário a luta contra  extinção das abelhas.</p>
+                </div>
+                <img src="melopolis-informativo/img/melzinho.png" /> 
+            </div>
+        </section>
+
+
+         <!------------------------Quiz--------------------------->
+        <section>
+            <div class="minimentes-quiz">
+                <h2>Agora, preparamos um pequeno quiz sobre o conteúdo descrito acima para se divertir um pouco!</h2>
+                <h3>Por que as abelhas são importantes para o nosso ecossistema?</h3>
+
+                <div class="minimentes-quiz__opcoes">
+                    <span class="quiz-option padrao">Para pousar nas flores.</span>
+                    <span class="quiz-option padrao" id="certa">Pois elas são responsáveis pela polinização de inúmeros alimentos.</span>
+                    <span class="quiz-option padrao">Para fazer mel e mel muito é bom!</span>
+                    <span id="mensagem" style="display: none;"></span>
+                    <button type="button" id="submit-quiz">Enviar</button>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------rodapé--------------------------->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                       <img id="img_footer" src="melopolis-informativo/img/melopolis.png">
+                </div>
+                <div class="footer-link">
+                    <div class="itens-footer">
+                        <h3>Início</h3>
+                        <a href="home.html">Home</a>
+                        <a href="pagina-alimentos.html">Loja</a>
+                    </div>
+                    <div class="itens-footer"> 
+                        <h3>Sobre Nós</h3>
+                        <a href="sobre_nos.html">Nossa missão</a>
+                        <a href="#">Institucional</a>
+                        <a href="parceiros.html">Parceiros</a>
+                        <a href="#">Contatos</a>
+                    </div>
+                    <div class="itens-footer">
+                        <h3>Suporte</h3>
+                        <a href="#">FAQ</a>
+                        <a href="#">Chat</a>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><img src="melopolis-informativo/img/icone-facebook.png" alt="" width=70px></a>
+    
+                    <a href="#"><img src="melopolis-informativo/img/icone-instagram.png" alt="" width=70px></a>
+    
+                    <a href="#"><img src="melopolis-informativo/img/icone-twitter.png" alt="" width=70px></a>
+                </div>
+            </div>
+            <div class="direitos">
+                <p> © 2025 Todos os direitos reservados</p>
+            </div>
+        </footer>
+
+    </main>
+
+    
+</body>
+</html>

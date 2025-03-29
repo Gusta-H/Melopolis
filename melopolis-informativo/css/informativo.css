@@ -1,0 +1,551 @@
+
+/* ---------------------------fontes---------------------------*/
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('../fontes/font_poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('../fontes/font_poppins/Poppins-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-medium';
+    src: url('../fontes/font_poppins/Poppins-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url('../fontes/font_poppins/Poppins-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-semibold';
+    src: url('../fontes/font_poppins/Poppins-SemiBold.ttf');
+}
+
+
+/* ---------------------------ajustando tela onde tudo será exposto--------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#fundo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #F9F4E8;
+    margin: auto;
+    font-family: 'Poppins';
+    color: #5C3D00;
+}
+
+/* scroll */
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F9F4E8;
+    border-radius: 13px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #DF9500;
+    border-radius: 10px;
+    border: 3px solid #f0f0f0;
+}
+
+ /* ---------------------------cabeçalho--------------------------- */
+ #barrinha{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+#logo{
+    position: absolute;
+    background-image: url(../img/melopolis.png);
+    width: 14.2%;
+    height:100px;
+    margin-right: 1100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 10px;
+}
+#barrinha a{
+    position: relative;
+    width: 14.2%;
+    text-align: center;
+    color: #5C3D00;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#barrinha section{
+    position: relative;
+    width: 14.2%;
+    text-align: center;
+}
+
+
+#barrinha a:hover{
+    background-color: #5C3D00;
+    color: #F9F4E8;
+    transition: 1s all;
+    font-family: Poppins-semibold;
+}
+
+/* ---------------------------orgranização do conteúdo na tela--------------------------- */
+#conteudo{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titulo_principal{
+    position: relative;
+    margin: 35px;
+    font-size: 28px;
+    color: #5C3D00;
+    margin-top: 60px;
+}
+
+/* ---------------------------favo de mel com as informações no começo--------------------------- */
+#beebizinha{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+    left: 5%;
+    top: 5%;
+}
+
+#favo_informativo{
+    position: relative;
+    width: 95%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#favo_fundo{
+    position: relative;
+    width: 105%;
+    height: 800px;
+}
+
+#favo_informativo p{
+    position: absolute;
+    margin: auto;
+    width: 270px;
+    left: 39.5%;
+    top: 205px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Poppins-medium';
+    color: #422C00;
+}
+
+/* ---------------------------cards informativos e interativos--------------------------- */
+#bloco-informativo-direita{
+    position: relative;
+    margin-top: 300px;
+    margin-left: 300px;
+    margin-right: 70%;
+    border-radius: 25px;
+    width: 42%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px solid #DF9500;
+    background-image: radial-gradient(#FFE580, #FFCC23, #DF9500);
+    font-size: 27px;
+    transition: all 500ms ease;
+    box-shadow: 1px 1px 15px #777373;
+}
+
+#bloco-informativo-direita:hover{
+    transform: translateY(-6px);
+    transition: all 600ms ease;
+}
+
+#bloco-informativo-esquerda{
+    position: relative;
+    margin-left: 70%;
+    margin-right: 300px;
+    border-radius: 25px;
+    width: 42%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #DF9500;
+    background-image: radial-gradient(#FFE580, #FFCC23, #DF9500);
+    font-size: 27px;
+    transition: all 500ms ease;
+    box-shadow: 1px 1px 15px #777373;
+}
+
+#bloco-informativo-esquerda:hover{
+    transform: translateY(-6px);
+    transition: all 600ms ease;
+}
+
+/* textos dos cards */
+.titulo_bloco{
+    color: #422C00;
+    margin: 30px;
+}
+
+.texto_bloco{
+    margin: 30px;
+}
+
+/* ícones de abelhas */
+#abelhinha1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 65%;
+    top: 30%;
+}
+
+#abelhinha2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 10%;
+    top: 40%;
+}
+
+#abelhinha3{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 15%;
+    top: 67%;
+}
+
+#abelhinha4{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 60%;
+    top: 80%;
+}
+
+/* ---------------------------animação abelhas--------------------------- */
+.abelha { 
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    background: url('../img_video/Group27.png') no-repeat center;
+    background-size: contain;
+    animation: flying 5s linear infinite;
+}
+
+/* Posicionamento aleatório das abelhas */
+.abelha:nth-child(1) { top: 15%; left: 15%; animation-delay: 0s; }
+.abelha:nth-child(2) { top: 40%; left: 5%; animation-delay: 1s; }
+.abelha:nth-child(3) { top: 50%; left: 55%; animation-delay: 2s; }
+.abelha:nth-child(4) { top: 70%; left: 20%; animation-delay: 3s; }
+.abelha:nth-child(5) { top: 90%; left: 80%; animation-delay: 4s; }
+.abelha:nth-child(6) { top: 25%; left: 75%; animation-delay: 5s; }
+
+@keyframes flying {
+    0% { transform: translateX(0px) rotate(0deg); }
+    25% { transform: translateX(50px) rotate(15deg); }
+    50% { transform: translateX(100px) rotate(0deg); }
+    75% { transform: translateX(50px) rotate(-15deg); }
+    100% { transform: translateX(0px) rotate(0deg); }
+}
+
+@keyframes flying {
+    0% {
+      transform: translateX(0px) rotate(0deg);
+    }
+    25% {
+      transform: translateX(50px) rotate(15deg);
+    }
+    50% {
+      transform: translateX(100px) rotate(0deg);
+    }
+    75% {
+      transform: translateX(50px) rotate(-15deg);
+    }
+    100% {
+      transform: translateX(0px) rotate(0deg);
+    }
+}
+
+/* ------------------------texto informativo com imagem de abelha ao lado--------------------------- */
+#sessao_informativa1 {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    background-image: url(../img/mel-fundo.png);
+    background-size: cover;
+}
+
+.blur-background {
+    position: absolute;
+    top: 8%;
+    width: 100%;
+    height: 550px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+
+#abeia_canto {
+    position: relative;
+    width: 380px;
+    height: 580px;
+}
+
+#texto_sessao_informacao {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    font-size: 27px;
+    text-align: right;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+
+#texto_sessao_informacao h1{
+    color: #422C00;
+}
+
+/* ------------------------cards favo de mel--------------------------- */
+#dois-favos img{
+    margin-top: 70px;
+    width: 900px;
+    height: 700px;
+}
+
+#texto-favos1{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    left: 25.5%;
+    top: 73.3%;
+    font-size: 26px; 
+    text-align: center;
+}
+
+#texto-favos2{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    left: 55.7%;
+    top: 67.5%;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* ------------------------segundo texto informativo com imagem de pote de mel ao lado------------------------ */
+#sessao_informativa3{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+}
+
+#texto_sessao_informacao3{
+    width: 60%;
+    height: 300px;
+    font-size: 27px;
+    margin-left: 50px;
+}
+
+#texto_sessao_informacao3 h1{
+    color: #422C00;
+}
+
+#sessao_informativa3 img{
+    width: 400px;
+    height: 600px;
+}
+
+/* ------------------------estilo para o quiz------------------------ */
+:root{
+    --cor-selecionado: #d69106;
+    --cor-padrao: #FFCC23;
+}
+
+.minimentes-quiz{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.minimentes-quiz span{
+    font-size: 22px;
+}
+
+.minimentes-quiz__opcoes, .minimentes-quiz{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.minimentes-quiz__opcoes{
+    align-items: center;
+    width: 90%;
+}
+
+.minimentes-quiz span:not(#mensagem){
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.selecionado{
+    background-color: var(--cor-selecionado);
+    color: white;
+}
+
+.selecionado:hover{
+    background-color: var(--cor-selecionado);
+}
+
+.padrao{
+    background-color: var(--cor-padrao);
+    color: #422C00;
+}
+
+#mensagem{
+    font-weight: 600;
+}
+
+.minimentes-quiz button{
+    color: white;
+    background-color: #422C00;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 20px;
+    width: 15%;
+    border-radius: 20px;
+    float: right;
+}
+
+.minimentes-quiz h2{
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.minimentes-quiz h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* ------------------------rodapé------------------------ */
+footer {
+    background-color: #F1CB39;
+    margin-top: 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 250px;
+}
+
+.footer-logo img{
+    width: 130px;
+}
+
+.footer-link {
+    display: flex;
+    gap: 150px;
+    text-align: left;
+}
+
+.itens-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.itens-footer h3 {
+    margin-bottom: 10px;
+}
+
+.itens-footer a {
+    text-decoration: none;
+    margin: 5px;
+    color: #000;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-social a {
+    margin: 5px;
+}
+
+.direitos p{
+    background-color: #4d3300;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
