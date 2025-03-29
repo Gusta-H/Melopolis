@@ -1,12 +1,12 @@
 @font-face{
-    font-family: Poppins-regular;
-    src: url(Fontes/Poppins/Poppins-Regular.ttf);
+    font-family: 'Poppins-regular';
+    src: url(../Fontes/Poppins/Poppins-Regular.ttf);
     
 }
 
 @font-face{
-    font-family: Poppins-semibold;
-    src: url(Fontes/Poppins/Poppins-SemiBold.ttf);
+    font-family: 'Poppins-semibold';
+    src: url(../Fontes/Poppins/Poppins-SemiBold.ttf);
 }
 
 *{
@@ -35,7 +35,7 @@ main{
     height: auto;
     background-color: #f9f4e8;
     margin: auto;
-    font-family: Poppins-regular;
+    font-family: 'Poppins-regular';
 }
 #barrinha{
     position: relative;
@@ -45,7 +45,6 @@ main{
     align-items: center;
     justify-content: space-around;
     padding-top: 25px;
-    
 }
 
 #logo{
@@ -81,7 +80,7 @@ main{
     background-color: #5C3D00;
     color: #F9F4E8;
     transition: 1s all;
-    font-family: Poppins-semibold;
+    font-family: 'Poppins-semibold';
 }
 
 /* ícones de abelhas */

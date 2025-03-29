@@ -4,43 +4,31 @@ main {
     height: 1000px;
     background-color: #F9F4E8;
     margin: auto;
-    font-family: Poppins-Medium;
 }
 
 /* ---------------- Fontes ---------------- */
 
 @font-face {
     font-family: 'Poppins-bold';
-    src: url('../font/Poppins-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    src: url('../fontes/font_poppins/Poppins-Bold.ttf') format('truetype');
 }
-
-@font-face {
-    font-family: 'Poppins-light';
-    src: url('../font/Poppins-Light.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Poppins-medium';
-    src: url('../font/Poppins-Medium.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Poppins-regular';
-    src: url('../font/Poppins-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @font-face {
     font-family: 'Poppins-semibold';
-    src: url('../font/Poppins-SemiBold.ttf');
+    src: url('../fontes/font_poppins/Poppins-SemiBold.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url('../fontes/font_poppins/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins-medium';
+    src: url('../fontes/font_poppins/Poppins-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('../fontes/font_poppins/Poppins-Light.ttf') format('truetype');
+}
+
 
 /* ---------------- Menu ---------------- */
 
@@ -52,7 +40,6 @@ main {
     align-items: center;
     justify-content: space-around;
     padding-top: 25px;
-    
 }
 /*
 #logo{
@@ -75,6 +62,7 @@ main {
     border-radius: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-family: 'Poppins-semibold';
 }
 
 #barrinha section{
@@ -88,7 +76,7 @@ main {
     background-color: #5C3D00;
     color: #F9F4E8;
     transition: 1s all;
-    font-family: Poppins-semibold;
+    font-family: 'Poppins-semibold';
 }
 
 
@@ -104,6 +92,7 @@ main {
     float: left;
     margin-left: 45px;
     margin-top: 15px;
+    font-family: 'Poppins-regular'
 }
 
 #lateral-loja img{
@@ -180,6 +169,7 @@ main {
     margin-left: 50px;
     margin-top: 65px;
     margin-bottom: 20px;
+    font-family: 'Poppins-medium';
 }
 
 /*
@@ -261,6 +251,7 @@ main {
     bottom: 25px;
     font-size: 38px;
     color: #FABF30;
+    font-family: 'Poppins-regular';
   }
   
   .carrossel-progresso {

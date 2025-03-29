@@ -11,36 +11,25 @@ main {
 
 @font-face {
     font-family: 'Poppins-bold';
-    src: url('../font/Poppins-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    src: url('../fontes/font_poppins/Poppins-Bold.ttf') format('truetype');
 }
-
-@font-face {
-    font-family: 'Poppins-light';
-    src: url('../font/Poppins-Light.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Poppins-medium';
-    src: url('../font/Poppins-Medium.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Poppins-regular';
-    src: url('../font/Poppins-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @font-face {
     font-family: 'Poppins-semibold';
-    src: url('../font/Poppins-SemiBold.ttf');
+    src: url('../fontes/font_poppins/Poppins-SemiBold.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url('../fontes/font_poppins/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins-medium';
+    src: url('../fontes/font_poppins/Poppins-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins-light';
+    src: url('../fontes/font_poppins/Poppins-Light.ttf') format('truetype');
+}
+
 
 /* ---------------- Menu ---------------- */
 
@@ -261,6 +250,7 @@ main {
     bottom: 25px;
     font-size: 38px;
     color: #FABF30;
+    font-family: 'Poppins-regular';
   }
   
   .carrossel-progresso {
