@@ -40,7 +40,7 @@ main {
     align-items: center;
     justify-content: space-around;
     padding-top: 25px;
-    
+    font-family: "Poppins-medium", sans-serif;
 }
 /*
 #logo{
@@ -76,7 +76,7 @@ main {
     background-color: #5C3D00;
     color: #F9F4E8;
     transition: 1s all;
-    font-family: 'Poppins-semibold';
+    font-family: "Poppins-medium", sans-serif;
 }
 
 

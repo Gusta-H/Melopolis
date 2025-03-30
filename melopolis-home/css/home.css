@@ -46,7 +46,7 @@ main{
     background-color: #F9F4E8;
     margin: auto;
     width: 99%;
-    height: 4200px;
+    height: auto;
 }
 #barrinha{
     position: relative;
